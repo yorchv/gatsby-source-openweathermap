@@ -27,6 +27,6 @@ module.exports = {
 };
 ```
 
-**NOTE:** To get a Pixabay API key, [register for a Pixabay account](https://home.openweathermap.org/users/sign_up).
+**NOTE:** To get a OpenWeatherMap API key, [register for a OpenWeatherMap account](https://home.openweathermap.org/users/sign_up).
 
 See the [OpenWeatherMap API docs](https://openweathermap.org/api).
