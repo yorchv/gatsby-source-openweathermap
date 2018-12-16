@@ -1,3 +1,5 @@
+import "@babel/polyfill";
+
 const fetch = require('node-fetch');
 const crypto = require('crypto');
 
