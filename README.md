@@ -1,4 +1,4 @@
-# gatsby-source-pixabay
+# gatsby-source-openweathermap
 
 This source plugin for Gatsby will make weather infomation from [OpenWeatherMap](https://openweathermap.org) available in GraphQL queries.
 
@@ -18,7 +18,7 @@ module.exports = {
       resolve: `gatsby-source-openweatherapi`,
       options: {
         apikey: 'YOUR KEY',
-        location: 'york',
+        location: 'York',
         units: 'metric',
         type: 'forecast'
       },
