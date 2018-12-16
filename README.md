@@ -18,7 +18,7 @@ module.exports = {
       resolve: `gatsby-source-openweatherapi`,
       options: {
         apikey: 'YOUR KEY',
-        location: 'London,york',
+        location: 'york',
         units: 'metric',
         type: 'forecast'
       },
