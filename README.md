@@ -6,7 +6,7 @@ This source plugin for Gatsby will make weather infomation from [OpenWeatherMap]
 
 ```sh
 # Install the plugin
-yarn add gatsby-source-openweatherapi
+yarn add gatsby-source-openweathermap
 ```
 
 In `gatsby-config.js`:
@@ -15,7 +15,7 @@ In `gatsby-config.js`:
 module.exports = {
   plugins: [
  {
-      resolve: `gatsby-source-openweatherapi`,
+      resolve: `gatsby-source-openweathermap`,
       options: {
         apikey: 'YOUR KEY',
         location: 'York',
