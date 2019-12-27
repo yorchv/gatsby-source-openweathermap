@@ -8,7 +8,7 @@ exports.sourceNodes = async (
   { plugins, ...options }
 ) => {
 
-  const apiUrl = `https://api.openweathermap.org/data/2.5/${options.type}?q=${options.location}&units=${options.units}&apikey=${options.apikey}`;
+  const apiUrl = `https://api.openweathermap.org/data/2.5/${options.type}?q=${options.location}&units=${options.units}&appid=${options.apikey}`;
   const response = await fetch(apiUrl);
   const data = await response.json();
 
